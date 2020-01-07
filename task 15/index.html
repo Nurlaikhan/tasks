@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a{
+            border: 1px solid black;
+            display: block;
+            width: 200px;
+            height: 50px;
+            text-decoration: none;
+            background-color: darkgray;
+            color: white;
+            font-size: 18px;
+        }
+        a:hover {
+            background-color: white;
+            color:black;
+        }
+        a:hover .moto {
+            display:inline-block;
+        }
+        .moto {
+            width: 30px;
+            height: 20px;
+            display: none;
+            margin-left: 50px;
+            margin-top: 10px;
+            background-image: url("1.jpg");
+            background-size: cover;
+        }
+        a div {
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="">
+            <div>Главная</div>
+            <div class="moto"></div>
+        </a>
+        <a href="">
+            <div>Новости</div>
+            <div class="moto"></div>
+        </a>
+        <a href="">
+            Контакты
+            <div class="moto"></div>
+        </a>
+        <a href="">
+            О компании
+            <div class="moto"></div>
+        </a>
+        <a href="">Как добраться</a>
+    </div>
+</body>
+</html>
