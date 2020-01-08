@@ -1,0 +1,36 @@
+.main{
+    border: 1px solid black;
+    width: 65%;
+    margin: 0 auto;
+}
+.header{
+    height: 200px;
+    border: 1px solid black;
+}
+.section{
+    font-size: 0;
+}
+.section .left, .section .content, .section .right{
+    font-size: 16px;
+    height: 400px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+.section .left, .section .right{
+    width: 25%;
+}
+.section .content{
+    width: 50%;
+}
+
+.footer{
+    border: 1px solid black;
+    height: 200px;
+}
+.left{
+    float: left;
+}
+* {
+    box-sizing: border-box;
+}
